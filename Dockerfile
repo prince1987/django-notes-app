@@ -19,7 +19,7 @@
 #RUN python manage.py migrate
 #RUN python manage.py makemigrations
 
-FROM python:3.10-slim
+FROM python:3.9
 
 WORKDIR /app/backend
 
