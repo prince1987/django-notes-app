@@ -20,5 +20,5 @@ COPY . /app/backend
 EXPOSE 8000
 
 # Start Django server
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python3", "manage.py", "runserver", "3.22.100.190:8000"]
 
